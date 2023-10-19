@@ -4,9 +4,23 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Jeff's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+You can add text 
+
+* and lists
+* with extra bullets
+
+You can *FORMAT* and **BOLD**
+
+You can also still use R!
+
+```{r}
+library(tidyverse)
+```
+
