@@ -6,15 +6,5 @@ output:
     toc_float: true
 ---
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-
-You can add text 
-
-* and lists
-* with extra bullets
-
-You can *FORMAT* and **BOLD**
-
-You can also still use R!
+I'm Diana Hernandez.
 
