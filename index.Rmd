@@ -1,12 +1,10 @@
 ---
-title: "My awesome website"
+title: "Home"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-
-# This is Jeff's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
@@ -19,8 +17,4 @@ You can add text
 You can *FORMAT* and **BOLD**
 
 You can also still use R!
-
-```{r}
-library(tidyverse)
-```
 
