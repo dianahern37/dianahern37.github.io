@@ -10,3 +10,8 @@ output:
 
 <img src="images/diana_hernandez_headshot.jpg" style="width:25%">
 
+Bachelor of Science, Psychology and Spanish, Tufts University
+
+MPH Candidate, Department of Sociomedical Sciences, Certificate in Applied Biostatistics and Public Health Data Science, Columbia University Mailman School of Public Health 
+
+Skills: R, SPSS, SAS
