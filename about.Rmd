@@ -8,5 +8,5 @@ output:
 
 # Diana Hernandez
 
-
+<img src="images/diana_hernandez_headshot.jpg" style="width:75%">
 
