@@ -6,4 +6,4 @@ output:
     toc_float: true
 ---
 
-For job opportunities, reach me via [this email](dianahern37@gmail.com).
+For job opportunities, reach me via [this email](diana.hernandez@columbia.edu).
