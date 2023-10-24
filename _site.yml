@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Work Experience"
+      href: work.html
     - text: "Contact"
       href: contact.html
     - icon: fa-envelope fa-lg

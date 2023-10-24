@@ -1,0 +1,42 @@
+---
+title: "Work Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### **Columbia University Mailman School of Public Health**, New York, NY.
+
+*Teaching Assistant for Integration of Science and Practice (September 2023-present)*
+
+* Co-facilitating the course;
+* Creating PowerPoint slides and lesson plans.
+
+### **Cancer Epidemiology Education in Special Populations (CEESP)**, Medellin, Colombia.
+
+*Intern (May 2023-July 2023)*
+
+* Performed data analysis using SPSS;
+* Conducted a literature review;
+* Prepared multiple manuscripts.
+
+### **Columbia University School of Nursing**, New York, NY.
+
+*Student Research Worker (January 2023-May 2023)*
+
+* Administered assessments to study participants;
+* Provided support in literature reviews and data collection;
+* Assisted with manuscript preparation;
+* Assisted with outreach. 
+
+### **Icahn School of Medicine at Mount Sinai Health System**, New York, NY.
+
+*Clinical Research Coordinator (November 2020-July 2022)*
+
+* Screen participants for eligibility; 
+* Collect and record study data; maintain source documents; 
+* Secure, deliver, and ship biological specimen per sponsor protocol; 
+* Assist in the preparation of monitoring visits. 
+
+
