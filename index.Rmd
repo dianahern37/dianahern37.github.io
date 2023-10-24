@@ -9,8 +9,10 @@ output:
 
 ### This is my website where you can find:
 
-* [My Education](about.html)
-* [My Work Experience](work.html)
-* [My Contact Information](contact.html)
+[My Education and Skills](about.html)
+
+[My Work Experience](work.html)
+
+[My Contact Information](contact.html)
 
 <center>
