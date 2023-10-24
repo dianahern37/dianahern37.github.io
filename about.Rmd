@@ -6,12 +6,14 @@ output:
     toc_float: true
 ---
 
-# Diana Hernandez
+# **Diana Hernandez**
 
 <img src="images/diana_hernandez_headshot.jpg" style="width:25%">
 
-Bachelor of Science, Psychology and Spanish, Tufts University
+**MPH Candidate**, Department of Sociomedical Sciences, Certificate in Applied Biostatistics and Public Health Data Science, Columbia University Mailman School of Public Health 
 
-MPH Candidate, Department of Sociomedical Sciences, Certificate in Applied Biostatistics and Public Health Data Science, Columbia University Mailman School of Public Health 
+**Bachelor of Science**, Psychology and Spanish, Tufts University
 
-Skills: R, SPSS, SAS
+**Skills:** R, SPSS, SAS, Microsoft Office, REDCap, Qualtrics
+
+**Languages:** English and Spanish
