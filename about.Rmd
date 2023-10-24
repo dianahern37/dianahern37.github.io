@@ -22,3 +22,7 @@ output:
 
 * Fluent in English and Spanish
 
+## **Resume**
+
+* [Click here to download my resume](./resume/hernandez_diana_resume.pdf)
+

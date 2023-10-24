@@ -1,9 +1,7 @@
 ---
 title: "Contact"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
 For job opportunities, reach me via [this email](diana.hernandez@columbia.edu).
