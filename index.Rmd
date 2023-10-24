@@ -1,16 +1,14 @@
 ---
 title: "Home"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
 # **I'm Diana Hernandez.**
 <img src="images/diana_hernandez.jpg" style="width:40%">
 
-This is my website where you can find:
+### This is my website where you can find:
 
-* My Education
-* My Work Experience
-* My Contact Information
+* [My Education](about.html)
+* [My Work Experience](work.html)
+* [My Contact Information](contact.html)
