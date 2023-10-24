@@ -7,9 +7,10 @@ output:
 ---
 
 # **I'm Diana Hernandez.**
+<img src="images/diana_hernandez.jpg" style="width:50%">
 
 This is my website where you can find:
 
-* My Work Experience
 * My Education
+* My Work Experience
 * My Contact Information
