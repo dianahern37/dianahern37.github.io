@@ -1,8 +1,8 @@
 ---
-title: "Home"
 output: 
   html_document
 ---
+<center>
 
 # **I'm Diana Hernandez.**
 <img src="images/diana_hernandez.jpg" style="width:40%">
@@ -12,3 +12,5 @@ output:
 * [My Education](about.html)
 * [My Work Experience](work.html)
 * [My Contact Information](contact.html)
+
+<center>
