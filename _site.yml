@@ -12,7 +12,7 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/dianahern37/
     - icon: fa-brands fa-linkedin
-      href: http://linkedin.com/in/diana-hernandez-3b1901155
+      href: https://www.linkedin.com/in/diana-hernandez-3b1901155
 output:
   html_document:
     theme: cosmo
