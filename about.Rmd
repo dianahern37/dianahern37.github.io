@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# **Diana Hernandez**
+# **Diana Hernandez (she/her)**
 
 <img src="images/diana_hernandez_headshot.jpg" style="width:30%">
 

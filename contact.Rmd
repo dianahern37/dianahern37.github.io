@@ -4,4 +4,4 @@ output:
   html_document
 ---
 
-For job opportunities, reach me via [this email](diana.hernandez@columbia.edu).
+For job opportunities, reach me via [this email](mailto:<diana.hernandez@columbia.edu>).
