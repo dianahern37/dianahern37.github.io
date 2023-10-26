@@ -8,14 +8,14 @@ output:
 
 # NYC Restaurant Inspections
 
-```{r}
+```{r include = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 
 library(plotly)
 ```
 
-```{r}
+```{r echo = FALSE}
 data(rest_inspec)
 
 rest_inspec_df =
@@ -27,20 +27,20 @@ rest_inspec_df =
          cuisine_description = as.factor(cuisine_description))
 ```
 
-```{r}
+```{r echo = FALSE}
 rest_inspec_df |> 
   plot_ly(
     x = ~cuisine_description, y = ~score, color = ~zipcode,
     type = "scatter", mode = "markers", colors = "viridis")
 ```
 
-```{r}
+```{r echo = FALSE}
 rest_inspec_df |> 
   plot_ly(
     y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
 ```
 
-```{r}
+```{r echo = FALSE}
 rest_inspec_df |> 
     count(cuisine_description) |>  
     mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
