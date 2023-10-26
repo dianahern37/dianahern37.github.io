@@ -8,45 +8,4 @@ output:
 
 # NYC Restaurant Inspections
 
-```{r include = FALSE}
-library(tidyverse)
-library(p8105.datasets)
-
-library(plotly)
-library(flexdashboard)
-```
-
-```{r echo = FALSE}
-data(rest_inspec)
-
-rest_inspec_df =
-  rest_inspec |> 
-  select(boro, cuisine_description, inspection_date, score, zipcode, grade, grade_date) |> 
-  filter(boro == "MANHATTAN") |> 
-  drop_na(grade, grade_date) |> 
-  mutate(zipcode = as.character(zipcode),
-         cuisine_description = as.factor(cuisine_description))
-```
-
-```{r echo = FALSE}
-rest_inspec_df |> 
-  plot_ly(
-    x = ~cuisine_description, y = ~score, color = ~zipcode,
-    type = "scatter", mode = "markers", colors = "viridis")
-```
-
-```{r echo = FALSE}
-rest_inspec_df |> 
-  plot_ly(
-    y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
-```
-
-```{r echo = FALSE}
-rest_inspec_df |> 
-    count(cuisine_description) |>  
-    mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
-    plot_ly(
-      x = ~cuisine_description, y = ~n, type = "bar", 
-      color = ~cuisine_description, colors = "viridis")
-```
-
+For this project, I created a flexdashboard using `plotly` that includes three distinct plot types. This flexdashboard uses data from the New York City Department of Health and Mental Hygiene (DOHMH) New York City Restaurant Inspection Results.

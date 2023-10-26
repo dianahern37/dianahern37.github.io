@@ -9,6 +9,8 @@ navbar:
       href: work.html
     - text: "Projects"
       href: projects.html
+    - text: "Dashboard"
+      href: dashboard.html
     - text: "Contact"
       href: contact.html
     - icon: fa-envelope fa-lg
