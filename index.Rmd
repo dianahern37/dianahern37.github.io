@@ -13,6 +13,8 @@ output:
 
 [My Work Experience](work.html)
 
+[My Projects](projects.html)
+
 [My Contact Information](contact.html)
 
 <center>
