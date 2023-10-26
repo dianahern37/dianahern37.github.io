@@ -8,3 +8,44 @@ output:
 
 # NYC Restaurant Inspections
 
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data(rest_inspec)
+
+rest_inspec_df =
+  rest_inspec |> 
+  select(boro, cuisine_description, inspection_date, score, zipcode, grade, grade_date) |> 
+  filter(boro == "MANHATTAN") |> 
+  drop_na(grade, grade_date) |> 
+  mutate(zipcode = as.character(zipcode),
+         cuisine_description = as.factor(cuisine_description))
+```
+
+```{r}
+rest_inspec_df |> 
+  plot_ly(
+    x = ~cuisine_description, y = ~score, color = ~zipcode,
+    type = "scatter", mode = "markers", colors = "viridis")
+```
+
+```{r}
+rest_inspec_df |> 
+  plot_ly(
+    y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
+```
+
+```{r}
+rest_inspec_df |> 
+    count(cuisine_description) |>  
+    mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
+    plot_ly(
+      x = ~cuisine_description, y = ~n, type = "bar", 
+      color = ~cuisine_description, colors = "viridis")
+```
+
