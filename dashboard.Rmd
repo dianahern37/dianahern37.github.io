@@ -20,14 +20,16 @@ rest_inspec_df =
   select(boro, cuisine_description, inspection_date, score, zipcode, grade, grade_date) |> 
   filter(boro == "MANHATTAN") |> 
   drop_na(grade, grade_date) |> 
-  mutate(zipcode = as.character(zipcode),
-         cuisine_description = as.factor(cuisine_description))
+  mutate(
+    zipcode = as.character(zipcode),
+      cuisine_description = as.factor(cuisine_description)
+      )
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Different types of cuisine and their restaurant scores in Manhattan by Zip Code
 
 ```{r}
 rest_inspec_df |> 
@@ -39,7 +41,7 @@ rest_inspec_df |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Different types of cuisine and their restaurant scores in Manhattan
 
 ```{r}
 rest_inspec_df |> 
@@ -47,11 +49,12 @@ rest_inspec_df |>
     y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
 ```
 
-### Chart C
+### Most popular types of cuisine in Manhattan
 
 ```{r}
 rest_inspec_df |> 
     count(cuisine_description) |>  
+    filter(n > 1000) |>
     mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
     plot_ly(
       x = ~cuisine_description, y = ~n, type = "bar", 
