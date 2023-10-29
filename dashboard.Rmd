@@ -17,16 +17,16 @@ data(rest_inspec)
 
 rest_inspec_df =
   rest_inspec |> 
-  select(boro, cuisine_description, inspection_date, score, zipcode, grade, grade_date) |> 
+  select(boro, cuisine_description, score, zipcode) |> 
   filter(boro == "MANHATTAN") |> 
-  drop_na(grade, grade_date) |> 
+  drop_na(score) |> 
   mutate(
     zipcode = as.character(zipcode),
-      cuisine_description = as.factor(cuisine_description)
-      )
+    cuisine_description = as.factor(cuisine_description)
+      ) 
 ```
 
-Column {data-width=650}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Different types of cuisine and their restaurant scores in Manhattan by Zip Code
@@ -38,7 +38,7 @@ rest_inspec_df |>
     type = "scatter", mode = "markers", colors = "viridis")
 ```
 
-Column {data-width=350}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Different types of cuisine and their restaurant scores in Manhattan
