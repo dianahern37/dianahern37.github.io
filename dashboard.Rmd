@@ -22,7 +22,8 @@ rest_inspec_df =
   drop_na(score) |> 
   mutate(
     zipcode = as.character(zipcode),
-    cuisine_description = as.factor(cuisine_description)
+    cuisine_description = as.factor(cuisine_description),
+    cuisine_description = ifelse(cuisine_description == "Latin (Cuban, Dominican, Puerto Rican, South & Central American)", paste("Latin American"), paste(cuisine_description))
       ) 
 ```
 
