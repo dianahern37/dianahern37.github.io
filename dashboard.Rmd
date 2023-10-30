@@ -36,7 +36,10 @@ Column {data-width=600}
 rest_inspec_df |> 
   plot_ly(
     x = ~cuisine_description, y = ~score, color = ~zipcode,
-    type = "scatter", mode = "markers", colors = "viridis")
+    type = "scatter", mode = "markers", colors = "viridis") |> 
+    layout(xaxis = list(title = 'Type of Cuisine'), 
+           yaxis = list(title = 'Score of Restaurant'),
+           legend = list(title = list(text ='Zip Code')))
 ```
 
 Column {data-width=400}
@@ -47,7 +50,9 @@ Column {data-width=400}
 ```{r}
 rest_inspec_df |> 
   plot_ly(
-    y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
+    y = ~score, color = ~cuisine_description, type = "box", colors = "viridis") |> 
+    layout(xaxis = list(title = 'Type of Cuisine'), 
+           yaxis = list(title = 'Score of Restaurant'))
 ```
 
 ### Most popular types of cuisine in Manhattan
@@ -59,6 +64,8 @@ rest_inspec_df |>
     mutate(cuisine_description = fct_reorder(cuisine_description, n)) |> 
     plot_ly(
       x = ~cuisine_description, y = ~n, type = "bar", 
-      color = ~cuisine_description, colors = "viridis")
+      color = ~cuisine_description, colors = "viridis") |> 
+    layout(xaxis = list(title = 'Type of Cuisine'), 
+           yaxis = list(title = 'Number of Restaurants'))
 ```
 
