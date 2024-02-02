@@ -18,7 +18,7 @@ output:
 
 ## **Skills** 
 
-* R, SPSS, SAS, Microsoft Office, REDCap, Qualtrics
+* R, SPSS, SAS, QGIS, Microsoft Office, REDCap, Qualtrics
 
 ## **Languages** 
 
