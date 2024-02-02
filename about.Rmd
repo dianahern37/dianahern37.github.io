@@ -10,21 +10,21 @@ output:
 
 <img src="images/diana_hernandez_headshot.jpg" style="width:30%">
 
-## **Education**
+## Education
 
 * MPH Candidate, Department of Sociomedical Sciences, Certificate in Applied Biostatistics and Public Health Data Science, Columbia University Mailman School of Public Health 
 
 * Bachelor of Science, Psychology and Spanish, Tufts University
 
-## **Skills** 
+## Skills
 
 * R, SPSS, SAS, QGIS, Microsoft Office, REDCap, Qualtrics
 
-## **Languages** 
+## Languages
 
 * Fluent in English and Spanish
 
-## **Resume**
+## Resume
 
 * [Click here to download my resume](./resume/hernandez_diana_resume.pdf)
 

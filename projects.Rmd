@@ -6,6 +6,6 @@ output:
     toc_float: true
 ---
 
-# **NYC Restaurant Inspections**
+# NYC Restaurant Inspections
 
 For this project, I created a flexdashboard using `plotly` that includes three distinct plot types: scatter, box, and bar. This flexdashboard uses data from the New York City Department of Health and Mental Hygiene (DOHMH) New York City Restaurant Inspection Results. Click [here](dashboard.html) to check out this dashboard. Click [here](https://p8105.com/dataset_restaurant_inspections.html) for more information on the data set.

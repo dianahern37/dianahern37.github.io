@@ -6,36 +6,36 @@ output:
     toc_float: true
 ---
 
-# **Past Coursework**
+# Past Coursework
 
-### **Analysis of Categorical Data**
+### Analysis of Categorical Data
 
 * A comprehensive overview of methods of analysis for binary and other discrete response data, with applications to epidemiological and clinical studies. Topics discussed include 2x2 tables, tests of independence, measures of association, power and sample size determination, stratification and matching in design and analysis, interrater agreement, logistic regression analysis. We used SAS throughout the course.
 
-### **Statistical Computing with SAS**
+### Statistical Computing with SAS
 
 * This course provided introduction to the basics of statistical programming with SAS (Statistical Analysis System). The course proceeded from understanding data types, how to move data into and out of SAS, how SAS holds data, what a SAS data set looks like, to the basic programming concepts. We expanded our programming vocabulary, incorporated logic structures into programming, and investigated the use of existing SAS Procedures.
 
-### **Data Science I**
+### Data Science I
 
 * Contemporary biostatistics and data analysis depends on the mastery of tools for computation, visualization, dissemination, and reproducibility in addition to proficiency in traditional statistical techniques using R Studio. The goal of this course was to provide training in the elements of a complete pipeline for data analysis. 
 
-### **Applied Regression I**
+### Applied Regression I
 
 * This course provided an introduction to the basics of regression analysis. The class proceeded systematically from the examination of the distributional qualities of the measures of interest, to assessing the appropriateness of the assumption of linearity, to issues related to variable inclusion, model fit, interpretation, and regression diagnostics. We will primarily use scalar notation (i.e. we used limited matrix notation). We used SAS throughout the course.
 
-# **Current Coursework**
+# Current Coursework
 
-### **Applied Regression II**
+### Applied Regression II
 
 * This course will introduce the statistical methods for analyzing censored data, non-normally distributed response data, and repeated measurements data that are commonly encountered in medical and public health research. Topics include estimation and comparison of survival curves, regression models for survival data, logit models, log-linear models, and generalized estimating equations. Examples are drawn from the health sciences. We are using R and SAS throughout the course.
 
-### **Data Science II**
+### Data Science II
 
 * The course will introduce: concepts and methods in statistical learning; classification and regression techniques beyond linear methods; exploratory data analysis using methods in unsupervised learning; various statistical learning methods using R; a pipeline for predictive modeling: data preprocessing, model
 training, model interpretation.
 
-### **Public Health GIS**
+### Public Health GIS
 
 * The course will introduce students to the theory, software, and analytical techniques needed to
 effectively use GIS in public health. This includes the ability to visualize spatial data, identify

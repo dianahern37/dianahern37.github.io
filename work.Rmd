@@ -6,14 +6,14 @@ output:
     toc_float: true
 ---
 
-### **Columbia University Mailman School of Public Health**, New York, NY.
+### Columbia University Mailman School of Public Health, New York, NY.
 
 *Teaching Assistant for Integration of Science and Practice (September 2023-present)*
 
 * Co-facilitating the course;
 * Creating PowerPoint slides and lesson plans.
 
-### **Cancer Epidemiology Education in Special Populations (CEESP)**, Medellin, Colombia.
+### Cancer Epidemiology Education in Special Populations (CEESP), Medellin, Colombia.
 
 *Intern (May 2023-July 2023)*
 
@@ -21,7 +21,7 @@ output:
 * Conducted a literature review;
 * Prepared multiple manuscripts.
 
-### **Columbia University School of Nursing**, New York, NY.
+### Columbia University School of Nursing, New York, NY.
 
 *Student Research Worker (January 2023-May 2023)*
 
@@ -30,7 +30,7 @@ output:
 * Assisted with manuscript preparation;
 * Assisted with outreach. 
 
-### **Icahn School of Medicine at Mount Sinai Health System**, New York, NY.
+### Icahn School of Medicine at Mount Sinai Health System, New York, NY.
 
 *Clinical Research Coordinator (November 2020-July 2022)*
 
